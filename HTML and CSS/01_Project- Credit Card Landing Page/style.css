@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    /* overflow: auto; */
+}
+
+/* navbar */
+nav {
+    display: flex;
+    padding: 20px 60px;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin-right: 50px;
+}
+
+.backbtn {
+    position: absolute;
+    right: 15%;
+    top: 35px;
+}
+
+/* hero section */
+.herosect {
+
+    height: 85vh;
+    background-image: url(backCards.png), url(frontCards.png);
+    background-position: 130%;
+    background-repeat: no-repeat;
+
+}
+
+.heading {
+    font-size: 70px;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.heading b {
+    color: palevioletred;
+}
+
+.para {
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+button {
+    color: #fff;
+    padding: 20px 50px;
+    background-color: transparent;
+    font-size: 20px;
+    border: none;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.herobtn {
+    position: absolute;
+    top: 56.5%;
+    left: 4%;
+}
+
+.users {
+    display: flex;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+
+.users p {
+    margin-left: 40px;
+    font-size: 40px;
+}
+
+.users b {
+    font-size: 20px;
+}
+
+.users span {
+    font-weight: 800;
+    color: palevioletred;
+}
+
+.vector {
+    margin-left: 45px;
+}
+
+
+/* Logo section */
+.logosect {
+    background-color: #454343;
+    height: 140px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.logos div {
+    margin-top: 3%;
+}
+
+/* second hero section */
+.secondsect {
+    height: 120vh;
+}
+
+.text {
+    display: flex;
+    padding-top: 80px;
+}
+
+.textone {
+    width: 50%;
+    font-size: 70px;
+    margin-left: 150px;
+}
+
+.textone b {
+    color: pink;
+}
+
+.texttwo {
+    width: 50%;
+    padding: 60px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    position: relative;
+    margin-top: 80px;
+}
+
+.boxone {
+    border: 2px solid #fff;
+    background-color: #454343;
+    padding: 20px 40px;
+    text-align: center;
+    position: relative;
+    top: 60px;
+
+}
+
+.boxtwo {
+    border: 2px solid #fff;
+    background-color: #454343;
+    padding: 20px 40px;
+    text-align: center;
+}
+
+.boxthree {
+    border: 2px solid #fff;
+    background-color: #454343;
+    padding: 20px 40px;
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+
+/* theirdsect */
+.theirdsect {
+    height: 150vh;
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+}
+
+.choice {
+    font-size: 80px;
+    position: relative;
+    top: 50px;
+}
+
+.choice b {
+    color: #ec9fac;
+}
+
+.choicetwo {
+    position: relative;
+    top: 80px;
+}
+
+/* /* review section * */
+.review {
+    height: 150vh;
+
+}
+
+.reheader {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.reheader b {
+    color: #ec9fac;
+}
+
+.repara {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.reviewboxes {
+    margin-top: 100px;
+}
+
+.reboxone {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.onebox {
+    border: 2px solid #fff;
+    width: 400px;
+    padding-bottom: 20px;
+    background-color: #201f1f;
+    margin: 10px;
+}
+
+.onebox img {
+    margin: 10px 20px;
+}
+
+.onebox p {
+    padding: 20px;
+}
+
+.onebox b {
+    margin-left: 20px;
+}
+
+.onebox i {
+    margin-left: 20px;
+}
+
+.twobox {
+    border: 2px solid #fff;
+    width: 400px;
+    padding-bottom: 20px;
+    background-color: #201f1f;
+    margin: 10px;
+}
+
+.twobox img {
+    margin: 10px 20px;
+}
+
+.twobox p {
+    padding: 20px;
+}
+
+.twobox b {
+    margin-left: 20px;
+}
+
+.twobox i {
+    margin-left: 20px;
+}
+
+.reboxtwo {
+    display: flex;
+    justify-content: center;
+}
+
+.threebox {
+    border: 2px solid #fff;
+    width: 400px;
+    padding-bottom: 20px;
+    background-color: #201f1f;
+    margin: 10px;
+}
+
+.threebox img {
+    margin: 10px 20px;
+}
+
+.threebox p {
+    padding: 20px;
+}
+
+.threebox b {
+    margin-left: 20px;
+}
+
+.threebox i {
+    margin-left: 20px;
+}
+
+.fourbox {
+    border: 2px solid #fff;
+    width: 400px;
+    padding-bottom: 20px;
+    background-color: #201f1f;
+    margin: 10px;
+}
+
+.fourbox img {
+    margin: 10px 20px;
+}
+
+.fourbox p {
+    padding: 20px;
+}
+
+.fourbox b {
+    margin-left: 20px;
+}
+
+.fourbox i {
+    margin-left: 20px;
+}
+
+/* footer */
+
+footer p {
+    font-size: 70px;
+    text-align: center;
+    position: relative;
+    top: 150px;
+}
+
+footer b {
+    color: #000;
+}
+
+footer button {
+    margin-left: 40%;
+    margin-top: 200px;
+}
+
+.banner {
+    height: 80vh;
+    background-image: url(Diamond-left.png), url(Diamond-right.png), url(Rectangle\ 6774.png), url(Rectangle\ 6773.png);
+    background-position: left, right bottom, left, right;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.bottomsect {
+    display: flex;
+    padding: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.bottomsect ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-left: 30%;
+}
+
+.bottomsect ul li {
+    margin-right: 20px;
+}

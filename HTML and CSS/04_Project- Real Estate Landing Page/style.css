@@ -1,0 +1,358 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navhero {
+    background-image: url(./Photos/mainBackground.png);
+    background-size: cover;
+    background-position: bottom;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    padding: 20px 150px;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: #fff;
+    font-size: 20px;
+    gap: 60px;
+}
+
+hr {
+    width: 85%;
+    margin-left: 8%;
+}
+
+/* hero section */
+.hero {
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.heading {
+    font-size: 80px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.para {
+    color: #fff;
+    margin-top: 2%;
+}
+
+.hero button {
+    background-color: #3944F7;
+    color: #fff;
+    border: none;
+    padding: 20px 40px;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 17px;
+    margin-top: 2%;
+}
+
+/* logo section */
+.logos {
+    background-color: #fff;
+    display: flex;
+    width: 95%;
+    padding: 70px;
+    justify-content: space-between;
+    border-radius: 20px;
+    position: relative;
+    left: 2.5%;
+    top: 15%;
+}
+
+/* card section */
+.cardheading {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.cardsect {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 40px;
+}
+
+.cardone {
+    background-image: url(./Photos/cardImage1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.cardtwo {
+    background-image: url(./Photos/cardImage2.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.cardthree {
+    background-image: url(./Photos/cardImage3.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 80px;
+}
+
+.cardfour {
+    background-image: url(./Photos/cardImage4.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 80px;
+}
+
+.cardfive {
+    background-image: url(./Photos/cardImage5.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.cardsix {
+    background-image: url(./Photos/cardImage6.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.cardseven {
+    background-image: url(./Photos/cardImage7.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.cardeight {
+    background-image: url(./Photos/cardImage8.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 40px;
+}
+
+.cardnine {
+    background-image: url(./Photos/cardImage9.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 350px;
+    width: 300px;
+    border-radius: 20px;
+    margin-top: 80px;
+}
+
+.card {
+    display: flex;
+    background-color: #fff;
+    width: 80%;
+    padding: 20px;
+    justify-content: space-between;
+    border-radius: 20px;
+    position: relative;
+    left: 9%;
+    top: 85%;
+}
+
+.card p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card b {
+    color: #3944F7;
+    /* padding-top: 10px; */
+}
+
+.card button {
+    background-color: #3944F7;
+    border: none;
+    padding: 10px 20px;
+    color: #fff;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+
+/* trend section */
+.featone {
+    display: flex;
+}
+
+.imgone {
+    background-image: url(./Photos/featuresImage1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+    position: absolute;
+    margin-left: 130px;
+}
+
+.imgtwo {
+    background-image: url(./Photos/featuresImage2.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+    position: absolute;
+    margin-left: 60px;
+}
+
+.bgone {
+    margin-top: 60px;
+    width: 689px;
+}
+
+.featimg {
+    margin-left: 280px;
+}
+
+.headingone {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.paraone {
+    font-size: 20px;
+    color: grey;
+    margin-top: 20px;
+}
+
+.featone button {
+    background-color: #3944F7;
+    border: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.kk {
+    /* align-items: center; */
+    margin-top: 10%;
+
+}
+
+.kk2 {
+    /* margin-left: 250px; */
+    text-align: end;
+    position: relative;
+    left: 270px;
+    top: 130px;
+}
+
+/* subscription section */
+.subs {
+    background-color: #3944F7;
+    width: 90%;
+    padding: 100px 0;
+    border-radius: 20px;
+    margin-left: 80px;
+}
+
+.subsheading {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    color: #fff;
+}
+
+.subspara {
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+input {
+    background-color: #0d16b3;
+    height: 45px;
+    width: 500px;
+    border: none;
+    border-radius: 20px;
+    padding-left: 50px;
+    margin-left: 400px;
+    margin-top: 30px;
+}
+
+.subs button {
+    background-color: #fff;
+    border: none;
+    padding: 10px 20px;
+    color: #3944F7;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.mail {
+    position: relative;
+    left: 32%;
+    top: 10px;
+}
+
+/* footer section */
+footer {
+    display: flex;
+    padding: 100px;
+    justify-content: space-around;
+}
+
+.social {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.spara {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.foot b {
+    font-size: 25px;
+}
+
+.foot ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+.foot ul li {
+    margin-top: 20px;
+    font-size: 20px;
+}

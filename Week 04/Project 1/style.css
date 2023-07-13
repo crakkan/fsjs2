@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 20px 10%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+nav ul li {
+    margin-right: 80px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+}
+
+.leftsect {
+    width: 40%;
+}
+
+.leftsect h1 {
+    font-size: 70px;
+}
+
+.leftsect p {
+    margin: 5% 0;
+}
+
+.rightsect {
+    width: 60%;
+}
+
+button {
+    height: 35px;
+    width: 80px;
+    background-color: #3b855b;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 25%;
+}

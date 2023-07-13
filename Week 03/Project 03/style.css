@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@600;700&family=Poppins:wght@500&family=Roboto+Slab:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* navbar */
+nav {
+    display: flex;
+    padding: 40px 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 30px;
+}
+
+nav ul li:hover {
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+nav i {
+    display: none !important;
+    font-size: 30px;
+}
+
+.button-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.button-group button {
+    font-size: 20px;
+    padding: 10px 40px;
+    background: transparent;
+    border-radius: 10px;
+    border: 3px solid #000;
+}
+
+.button-group button:hover {
+    background-color: #000;
+    color: #fff;
+    border: 3px solid #000;
+}
+
+/* hero section */
+.hero-container {
+    display: flex;
+    padding: 100px;
+
+}
+
+.person {
+    position: absolute;
+}
+
+.square {
+    margin-top: 355px;
+    margin-left: 225px;
+}
+
+.globe {
+    position: absolute;
+    left: 60%;
+    bottom: 70%;
+}
+
+.star {
+    position: absolute;
+    left: 90%;
+}
+
+.starone {
+    height: 50px;
+    position: absolute;
+    top: 110%;
+    left: 55%;
+}
+
+
+.hero-heading {
+    font-size: 60px;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.hero-description {
+    text-align: center;
+    font-size: 20px;
+    color: grey;
+    margin-top: 10%;
+}
+
+.button-email {
+    font-size: 20px;
+    padding: 10px 40px;
+    background: transparent;
+    border-radius: 10px;
+    border: 3px solid #000;
+    margin-left: 25%;
+    margin-top: 10%;
+
+}
+
+.button-email:hover {
+    background-color: #000;
+    color: #fff;
+    border: 3px solid #000;
+}
+
+.button-join {
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #000;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+}
+
+.contact-heading {
+    font-size: 30px;
+    color: gray;
+    margin-left: 40%;
+    margin-top: 20%;
+}
+
+.icons {
+    margin-left: 35%;
+    margin-top: 5%;
+    display: flex;
+    gap: 20px;
+}
+
+/* media query */
+@media screen and (max-width:1250px) {
+    nav ul {
+        display: none !important;
+    }
+
+    .button-group {
+        display: none !important;
+    }
+
+    nav i {
+        display: block !important;
+        position: fixed;
+        margin-left: 80%;
+    }
+
+    .per {
+        height: 500px;
+    }
+
+    .squ {
+        display: none !important;
+    }
+
+    .hero-heading {
+        font-size: 50px;
+    }
+
+    .hero-description {
+        /* display: block; */
+        font-size: 20px;
+    }
+
+    .globe {
+        display: none !important;
+    }
+
+    .button-email {
+        font-size: 10px;
+        padding: 5px 10px;
+        background: transparent;
+        border-radius: 10px;
+        border: 3px solid #000;
+    }
+
+    .button-join {
+        font-size: 10px;
+        padding: 5px 10px;
+        background-color: #000;
+        border-radius: 10px;
+        color: #fff;
+        border: none;
+    }
+
+    .contact-heading {
+        font-size: 20px;
+    }
+
+    .icons {
+        position: relative;
+        right: 20%;
+    }
+
+    /* .ic {
+        height: 20px;
+    } */
+
+    .star {
+        display: none !important;
+    }
+
+    .hero-container-right {
+        width: 50%;
+        margin-left: 30%;
+    }
+
+    .person {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .squ {
+        display: none !important;
+    }
+
+    .per {
+        height: 800px;
+        position: relative;
+        right: 20px;
+    }
+
+    .hero-container {
+        flex-direction: column;
+    }
+
+    .hero-container-right {
+        margin-top: 80%;
+        width: 100%;
+        padding: 0;
+        /* margin: 0; */
+    }
+
+    .hero-heading {
+        font-size: 40px;
+    }
+
+    .hero-description {
+        font-size: 20px;
+    }
+
+    .button-email {
+        font-size: 20px;
+        padding: 10px 20px;
+        background: transparent;
+        border-radius: 10px;
+        border: 3px solid #000;
+    }
+
+    .button-join {
+        font-size: 20px;
+        padding: 10px 20px;
+        background-color: #000;
+        border-radius: 10px;
+        color: #fff;
+        border: none;
+    }
+
+    .starone {
+        display: none !important;
+    }
+
+    .icons {
+        margin-left: 280px;
+
+    }
+}
